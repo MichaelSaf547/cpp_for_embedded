@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1644173626 source:c:\users\al lewaa company\documents\codeblocks\string_task\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"String.cpp"
+
+1644175048 c:\users\al lewaa company\documents\codeblocks\string_task\string.h
+	<iostream>
+	<string>
+	<vector>
+
+1644175035 c:\users\al lewaa company\documents\codeblocks\string_task\string.cpp
+	"String.h"
+	<sstream>
+	<algorithm>
+
