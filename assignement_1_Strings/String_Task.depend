@@ -15,3 +15,19 @@
 	<sstream>
 	<algorithm>
 
+1644175444 source:e:\michael\iti\c++es\cpprep\cpp_for_embedded\assignement_1_strings\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"String.cpp"
+
+1644609591 e:\michael\iti\c++es\cpprep\cpp_for_embedded\assignement_1_strings\string.cpp
+	"String.h"
+	<sstream>
+	<algorithm>
+
+1644609113 e:\michael\iti\c++es\cpprep\cpp_for_embedded\assignement_1_strings\string.h
+	<iostream>
+	<string>
+	<vector>
+

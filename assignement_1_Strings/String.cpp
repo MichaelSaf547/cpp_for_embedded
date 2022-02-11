@@ -34,6 +34,45 @@ int get_size(string line, int start, int extension)
 }
 
 /*
+/   get_last_syl function is used to get the last word in the string.
+/   It takes string line: the line to get the last word of it,
+/   int extension: the length of the extension to cut it.
+/
+/   It returns string: the the last word.
+*/
+
+string get_last_syl(string line)
+{
+
+    //Define contant data that will be worked as delimiter
+    const char separator = ' ';
+
+    //Define the dynamic array variable of strings
+    std::vector<string> outputArray;
+
+	//Construct a stream from the string
+    std::stringstream streamData(line);
+
+	/*
+    Declare string variable that will be used
+    to store data after split
+    */
+
+	std::string val;
+
+	/*
+    The loop will iterate the splitted data and
+    insert the data into the array
+    */
+
+	while (std::getline(streamData, val, separator)) {
+        outputArray.push_back(val);
+    }
+
+	return outputArray[outputArray.size() - 1];
+}
+
+/*
 /   get_Dicided function is used to search for each extension and sum the sizes of same category.
 /   It takes int len: the number of test cases,
 /   vector of integers lengths: the number of strings of each test case,
@@ -121,7 +160,7 @@ void get_Divided(int len, vector<int> lengths, vector <string> strings)
             / The next three are for image.
             / The last three are for video.
             / If it is out of that it means that it belongs to others,
-            / so search for a space and then get the file size.
+            / so get the last word that has the size then get the file size.
             */
             if(counter < 3)
             {
@@ -137,8 +176,7 @@ void get_Divided(int len, vector<int> lengths, vector <string> strings)
             }
             else
             {
-                found = line.find(" ");
-                other_Length += get_size(line, found, 0);
+                other_Length += get_size(get_last_syl(line), 0, 0);
             }
 
             /*
