@@ -1,0 +1,19 @@
+
+Trying to write: done setting the register value.
+Trying to read: done getting the register value and it is = 200.
+Trying to read bit number 9: failed to get the register value due to Error Read.
+Trying to set bit number 9: failed to set the bit value due to Error Write.
+Trying to read bit number 9: failed to get the bit value due to Error Read.
+Trying to clear bit number 9: failed to clear the bit value due to Error Write.
+Trying to change register permission to reserved: done changing the permission.
+Trying to write: failed to set the register value due to Error Write.
+Trying to read: failed to get the register value due to Error Read.
+Trying to change bit 9 permission to write only: failed to change the permission due to Error Bit Value.
+Trying to set bit number 9: failed to set the bit value due to Error Write.
+Trying to read bit number 9: failed to get the bit value due to Error Read.
+Trying to clear bit number 9: failed to clear the bit value due to Error Write.
+Trying to change bit 9 permission to read only: failed to change the permission due to Error Bit Value.
+Trying to set bit number 9: failed to set the bit value due to Error Write.
+Trying to read bit number 9: failed to get the bit value due to Error Read.
+Trying to clear bit number 9: failed to clear the bit value due to Error Write.
+

@@ -1,0 +1,19 @@
+
+Trying to write: failed to set the register value due to Error Write.
+Trying to read: failed to get the register value due to Error Read.
+Trying to read bit number 13: failed to get the register value due to Error Read.
+Trying to set bit number 13: failed to set the bit value due to Error Write.
+Trying to read bit number 13: failed to get the bit value due to Error Read.
+Trying to clear bit number 13: failed to clear the bit value due to Error Write.
+Trying to change register permission to reserved: done changing the permission.
+Trying to write: failed to set the register value due to Error Write.
+Trying to read: failed to get the register value due to Error Read.
+Trying to change bit 13 permission to write only: done changing the permission.
+Trying to set bit number 13: done setting the bit value.
+Trying to read bit number 13: failed to get the bit value due to Error Read.
+Trying to clear bit number 13: done clearing the bit value.
+Trying to change bit 13 permission to read only: done changing the permission.
+Trying to set bit number 13: failed to set the bit value due to Error Write.
+Trying to read bit number 13: done getting the bit value and it is = 0.
+Trying to clear bit number 13: failed to clear the bit value due to Error Write.
+
